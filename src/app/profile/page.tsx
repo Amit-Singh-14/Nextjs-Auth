@@ -35,7 +35,6 @@ export default function ProfilePage() {
       <hr />
       <p>Profile Page</p>
       <h2 className="p-4 rounded bg-green-600">
-        {" "}
         {data === "nothing" ? "Nothing" : <Link href={`/profile/${data}`}>{data}</Link>}
       </h2>
       <br />
